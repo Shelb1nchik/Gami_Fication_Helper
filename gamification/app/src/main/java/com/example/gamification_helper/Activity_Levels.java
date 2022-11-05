@@ -16,7 +16,7 @@ public class Activity_Levels extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_levels);
 
-        Button GotoMainAct = (Button) findViewById(R.id.GoToMainAct);
+        Button GotoMainAct = (Button) findViewById(R.id.GoToMainAct2);
 
         View.OnClickListener oclBtnGotoMainAct = new View.OnClickListener()
         {

@@ -46,5 +46,19 @@ public class MainActivity extends AppCompatActivity
 
         GotoAchievments.setOnClickListener(oclBtnGotoAchievments);
 
+        Button GotoSettings = (Button) findViewById(R.id.GoToSettings);
+
+        View.OnClickListener oclBtnGotoSettings = new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(MainActivity.this, Acitivity_Settings.class);
+                startActivity(intent);
+
+            }
+        };
+
+        GotoSettings.setOnClickListener(oclBtnGotoSettings);
     }
 }

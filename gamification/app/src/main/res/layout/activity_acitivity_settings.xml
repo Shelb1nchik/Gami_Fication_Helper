@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/mainBgColor"
-    tools:context=".Activity_Levels">
+    tools:context=".Acitivity_Settings">
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/GoToMainAct2"
+        android:id="@+id/GoToMainAct3"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="200dp"
         android:layout_height="65dp"

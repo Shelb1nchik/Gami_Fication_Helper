@@ -4,6 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/mainBgColor"
     tools:context=".Activity_Achievments">
-
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/GoToMainAct2"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="104dp"
+        android:backgroundTint="@color/name_of_app"
+        android:text="Menu"
+        android:textColor="@color/white"
+        app:cornerRadius="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
