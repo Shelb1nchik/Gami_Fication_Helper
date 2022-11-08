@@ -1,11 +1,12 @@
 package com.example.gamification_helper;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 
 public class MainActivity extends AppCompatActivity
 {
@@ -53,12 +54,28 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent(MainActivity.this, Acitivity_Settings.class);
+                Intent intent = new Intent(MainActivity.this, Activity_Settings.class);
                 startActivity(intent);
 
             }
         };
 
         GotoSettings.setOnClickListener(oclBtnGotoSettings);
+
+
+        Button GotoRegister = (Button) findViewById(R.id.GoToRegister);
+
+        View.OnClickListener oclBtnGotoRegister = new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(MainActivity.this, Register_Activity.class);
+                startActivity(intent);
+
+            }
+        };
+
+        GotoRegister.setOnClickListener(oclBtnGotoRegister);
     }
 }

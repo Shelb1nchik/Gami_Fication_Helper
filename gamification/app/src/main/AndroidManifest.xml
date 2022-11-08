@@ -13,7 +13,14 @@
         android:theme="@style/Theme.Gamification_helper"
         tools:targetApi="31">
         <activity
-            android:name=".Acitivity_Settings"
+            android:name=".Register_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activity_Settings"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

@@ -11,4 +11,9 @@
     <color name="asideBgColor">#EAEAEA</color>
     <color name="name_of_app">#EC6D6D</color>
     <color name="backdark">#424345</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="text_Bottom">#c9c9c9</color>
+
 </resources>

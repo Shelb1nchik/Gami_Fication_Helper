@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "504092484781",
+    "project_id": "gamificationhelper",
+    "storage_bucket": "gamificationhelper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504092484781:android:df39743a5c87a96bd45224",
+        "android_client_info": {
+          "package_name": "com.example.gamification_helper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504092484781-iuvivg1f199ghf1bepo9lub3gn1amcdc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gamification_helper",
+            "certificate_hash": "b49d95f62ef6f39f70da26939e46f0932cd0bb32"
+          }
+        },
+        {
+          "client_id": "504092484781-suur1vjpudigjuptrb9ii5a05hc38mcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnovViDaeyN-JhdO-QL-aR0cGiJ0l8LfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504092484781-suur1vjpudigjuptrb9ii5a05hc38mcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
